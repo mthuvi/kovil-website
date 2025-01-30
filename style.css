@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins";
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+.front-side{
+    background-image: linear-gradient(rgba(41, 0, 0, 0.8), rgba(41, 0, 0, 0.8)), url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-img{
+    max-height: 12vh;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header {
+    height: 15vh;
+    display: flex;
+    justify-content: space-between; /* Space between the logo and nav-bar */
+    align-items: center;
+    background-color: #5e0000;
+}
+
+.header-image-class {
+    display: flex;
+    align-items: center; /* Center the logo vertically within its container */
+    padding: .5%;
+}
+
+.header p{
+    padding-right: 1%;
+}
+
+
+#header1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#front-button{
+    background-color: transparent;
+    padding: 20px;
+    border: 2px solid #ffffff;
+    transition: 0.7s;
+}
+
+#front-button:hover{
+    background-color: rgba(131, 131, 131, 0.411);
+}
+
+#front-button::after{
+    background-color: none;
+}
+
+.down-page{
+    height: 75vh;
+    padding-inline: 100px;
+    background-color: #222;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.iframe-map{
+    width: 50%;
+    height: 50%;
+}
