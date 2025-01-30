@@ -38,6 +38,8 @@
     justify-content: space-between; /* Space between the logo and nav-bar */
     align-items: center;
     background-color: #5e0000;
+    position: sticky;
+    top: 0;
 }
 
 .header-image-class {
@@ -73,7 +75,7 @@
 
 .down-page{
     height: 75vh;
-    padding-inline: 100px;
+    padding-inline: 15%;
     background-color: #222;
     position: relative;
     display: flex;
@@ -82,7 +84,10 @@
     flex-direction: row;
 }
 
-.iframe-map{
-    width: 50%;
-    height: 50%;
+.contact-information{
+    font-size: larger;
+}
+
+iframe{
+    border-radius: 1em;
 }
