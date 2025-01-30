@@ -38,8 +38,23 @@
     justify-content: space-between; /* Space between the logo and nav-bar */
     align-items: center;
     background-color: #5e0000;
-    position: sticky;
-    top: 0;
+    padding-right: 1%;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row; 
+    justify-content: flex-end; 
+    align-items: center; 
+    gap: 15px; 
+    padding: 0;
+    margin: 0;
+}
+
+.header a{
+    transition: 0.7s;
+    text-decoration: none;
 }
 
 .header-image-class {
@@ -90,4 +105,21 @@
 
 iframe{
     border-radius: 1em;
+}
+
+.opening-times-header{
+    height: 15vh;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.opening-times{
+    height: 60vh;
+    background: #222;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
 }
