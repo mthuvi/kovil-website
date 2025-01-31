@@ -6,7 +6,6 @@
     margin: 0px;
     padding: 0px;
     text-align: center;
-    color: white;
     scroll-behavior: smooth;
 }
 
@@ -20,6 +19,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    color: white;
 }
 
 .header-img{
@@ -39,6 +39,7 @@
     align-items: center;
     background-color: #5e0000;
     padding-right: 1%;
+    color: white;
 }
 
 .header ul {
@@ -55,6 +56,7 @@
 .header a{
     transition: 0.7s;
     text-decoration: none;
+    color: white;
 }
 
 .header-image-class {
@@ -78,6 +80,7 @@
     padding: 20px;
     border: 2px solid #ffffff;
     transition: 0.7s;
+    color: white;
 }
 
 #front-button:hover{
@@ -88,15 +91,19 @@
     background-color: none;
 }
 
+.front-side button{
+    margin-top: 2%;
+}
+
 .down-page{
     height: 75vh;
     padding-inline: 15%;
-    background-color: #222;
     position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    color: black;
 }
 
 .contact-information{
@@ -109,17 +116,19 @@ iframe{
 
 .opening-times-header{
     height: 15vh;
-    background: #222;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .opening-times{
     height: 60vh;
-    background: #222;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
+}
+
+.right-text{
+    color: black;
 }
