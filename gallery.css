@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins";
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+a:visited{
+    color: blue;
+}
+
+.front-side{
+    background-image: linear-gradient(rgba(41, 0, 0, 0.8), rgba(41, 0, 0, 0.8)), url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.header-img{
+    max-height: 12vh;
+}
+
+.header-image-class{
+    cursor: pointer;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header {
+    height: 15vh;
+    display: flex;
+    justify-content: space-between; /* Space between the logo and nav-bar */
+    align-items: center;
+    background-color: #5e0000;
+    padding-right: 1%;
+    color: white;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row; 
+    justify-content: flex-end; 
+    align-items: center; 
+    gap: 15px; 
+    padding: 0;
+    margin: 0;
+}
+
+.header a{
+    transition: 0.7s;
+    text-decoration: none;
+    color: white;
+}
+
+.header-text{
+    height: 20vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+/* copy until here for other pages */
