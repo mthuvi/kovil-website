@@ -110,7 +110,7 @@ a:visited{
     }
 
     .header ul {
-        flex-direction: column;
+        flex-direction: row;
         font-size: 9px;
     }
 

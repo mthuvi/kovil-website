@@ -162,12 +162,14 @@ iframe {
 
     /* Adjust header layout */
     .header {
+        flex-direction: column;
         height: auto;
         padding-bottom: 1%;
         text-align: center;
     }
 
     .header ul {
+        flex-direction: row;
         font-size: 9px;
     }
 
