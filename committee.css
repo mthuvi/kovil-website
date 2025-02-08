@@ -74,15 +74,11 @@ a:visited{
     justify-content: space-around;
 }
 
-/* copy until here for other pages */
-
 .text-box{
+    height: 85vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    padding-top: 10%;
-    padding-inline: 20%;
-    font-size: larger;
 }
 
 /* Mobile-Friendly Adjustments */
@@ -95,22 +91,6 @@ a:visited{
         background-position: center;
     }
 
-    #header1 {
-        font-size: 30px;
-    }
-
-    .down-page {
-        flex-direction: column;
-        padding-inline: 5%;
-        height: auto;
-    }
-
-    .left-text, .right-text {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    /* Adjust header layout */
     .header {
         flex-direction: column;
         height: auto;
@@ -119,46 +99,66 @@ a:visited{
     }
 
     .header ul {
-        flex-direction: row;
-        font-size: 9px;
+        flex-direction: row; /* Stacks list items vertically */
+        font-size: 9px; /* Adjust font size */
+        gap: 10px; /* Adjust spacing between list items */
+        padding: 0;
+        margin: 0;
     }
 
     .header-img{
-        position: relative;
-        margin-right: 50%;
+        max-height: 10vh; /* Adjust logo size for mobile */
+        margin-bottom: 20px; /* Space below the logo */
     }
 
     .header a {
-        padding: 12px;
+        padding: 10px;
         text-align: center;
     }
 
-    
-    .left-text{
-        margin-top: 20%;
-        margin-bottom: 20%;
-    }
-
-
-    .opening-times {
-        display: flex;
-        justify-content: space-between;
+    /* Adjust text box layout */
+    .text-box {
+        display: block;
+        padding-top: 5%;
+        padding-inline: 5%;
+        font-size: 16px;
         align-items: center;
-        padding-inline: 20%;
-        margin: 0;
-        padding-block: 0;
     }
 
-    .opening-times p {
+    .committee, .trustees-section {
+        margin-bottom: 30px;
+        width: 100%; /* Make the sections take full width */
+        text-align: left;
         font-size: 14px;
     }
 
-    iframe {
-        width: 100%;
-        height: 250px;
+
+    /* Make headings more mobile-friendly */
+    h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
     }
 
-    /* Adjust the button */
+    .board, .trustees {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .committee, .trustees-section {
+        margin-bottom: 20px;
+    }
+
+    /* Small tweaks for text inside the committee/trustees */
+    .board b, .trustees b {
+        font-weight: bold;
+    }
+
+    /* Add some spacing to the bottom of sections for readability */
+    .text-box > div {
+        margin-bottom: 30px;
+    }
+
+    /* Adjust button inside .front-side */
     #front-button {
         padding: 10px;
         font-size: 16px;

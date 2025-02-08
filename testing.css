@@ -115,6 +115,8 @@ a:visited {
 
 iframe {
     border-radius: 1em;
+    height: 500px;
+    width: 500px;
 }
 
 .opening-times-header {
@@ -167,6 +169,10 @@ iframe {
         height: auto;
         padding-bottom: 1%;
         text-align: center;
+    }
+
+    .front-side{
+        height: 85vh;
     }
 
     .header ul {
