@@ -84,3 +84,86 @@ a:visited{
     padding-inline: 20%;
     font-size: larger;
 }
+
+/* Mobile-Friendly Adjustments */
+@media only screen and (max-width: 768px) {
+    /* Adjust the front-side for mobile */
+    .front-side {
+        height: auto;
+        padding: 20px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #header1 {
+        font-size: 30px;
+    }
+
+    .down-page {
+        flex-direction: column;
+        padding-inline: 5%;
+        height: auto;
+    }
+
+    .left-text, .right-text {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* Adjust header layout */
+    .header {
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 1%;
+        text-align: center;
+    }
+
+    .header ul {
+        flex-direction: column;
+        font-size: 9px;
+    }
+
+    .header-img{
+        position: relative;
+        margin-right: 50%;
+    }
+
+    .header a {
+        padding: 12px;
+        text-align: center;
+    }
+
+    img{
+        border: red 2px solid;
+    }
+    
+    .left-text{
+        margin-top: 20%;
+        margin-bottom: 20%;
+    }
+
+
+    .opening-times {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-inline: 20%;
+        margin: 0;
+        padding-block: 0;
+    }
+
+    .opening-times p {
+        font-size: 14px;
+    }
+
+    iframe {
+        width: 100%;
+        height: 250px;
+    }
+
+    /* Adjust the button */
+    #front-button {
+        padding: 10px;
+        font-size: 16px;
+    }
+}
