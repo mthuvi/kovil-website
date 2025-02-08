@@ -74,13 +74,18 @@ a:visited{
     justify-content: space-around;
 }
 
-/* copy until here for other pages */
 
-.text-box{
+
+.main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 10%;
-    padding-inline: 20%;
-    font-size: larger;
+    height: 85vh;
+    padding-inline: 10%;
 }
+
+.right-side a{
+    display: block;
+    padding-block: 15%;
+}
+
