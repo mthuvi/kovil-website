@@ -80,6 +80,19 @@ a:visited{
     justify-content: space-around;
 }
 
+.posts{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid red;
+    height: 80vh;
+}
+
+.instagram-media {
+    transform: scale(0.8); /* Adjust size */
+}
+
+
 /* copy until here for other pages */
 
 /* Mobile-Friendly Adjustments */
