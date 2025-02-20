@@ -87,6 +87,12 @@ a:visited{
     padding-block: 10%;
 }
 
+.header-image-class {
+    display: flex;
+    align-items: center; /* Center the logo vertically within its container */
+    padding: .5%;
+}
+
 /* Mobile-Friendly Adjustments */
 @media only screen and (max-width: 768px) {
     /* Adjust the front-side for mobile */

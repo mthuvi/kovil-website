@@ -67,6 +67,12 @@ a:visited{
     color: white;
 }
 
+.header-image-class {
+    display: flex;
+    align-items: center; /* Center the logo vertically within its container */
+    padding: .5%;
+}
+
 .header-text{
     height: 20vh;
     display: flex;
